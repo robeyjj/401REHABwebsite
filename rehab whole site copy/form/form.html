@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Club registration</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+<script type="text/javascript" src="calendar.js"></script>
+</head>
+<title>Rehab</title>
+
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="top">
+  <div id="logo">
+    <li><img src="../images/Rehab_logo_small.png" width="147" height="89" /></li>
+ </div>
+   <div id="navigation">   	 
+   <ul id="MenuBar1" class="MenuBarHorizontal">
+     <li><a class="MenuBarItemSubmenu"><img src="../images/about_us_button.png" width="126" height="37" /></a>
+       <ul>
+         <li><a href="#"><img src="../images/the_club_button.png" width="124" height="37" /></a></li>
+         <li><a href="#"><img src="../images/club_rules_button.png" width="148" height="37" /></a></li>         
+       </ul>
+     </li>     
+   </ul>
+    <li><img class="plus" src="../images/plus_button.png" width="26" height="37" /></li>
+    <li><a href="http://www.rehab.com/about_us.html"><img class="words" src="../images/events_button.png" /></a></li>
+    <li><img class="plus" src="../images/plus_button.png" width="26" height="37" /></li>
+     <ul id="MenuBar3" class="MenuBarHorizontal">
+     <li><a class="MenuBarItemSubmenu"><img src="../images/reservations_button.png" width="174" height="37" /></a>
+       <ul>
+         <li><a href="#"><img src="../images/guest_list_button.png" width="146" height="38" /></a></li>
+         <li><a href="#"><img src="../images/vip_button.png" width="60" height="37" /></a></li>  
+         <li><img src="../images/private_events_button.png" width="199" height="37" /></li>       
+       </ul>
+     </li>     
+   </ul>
+    <li><img class="plus" src="../images/plus_button.png" width="26" height="37" /></li>
+    <li><a href="http://www.rehab.com/gallery.html"><img class="words" src="../images/gallery_button.png" /></a></li>
+    <li><img class="plus" src="../images/plus_button.png" width="26" height="37" /></li>
+    <li><a href="http://www.rehab.com/contact-us.html"><img src="../images/contact_us_button.png" width="155" height="37" /></a></li> 
+    <li><p class="space">.</p> </li> 
+    <li><img class="mediabuttons" src="../images/facebook_icon_small_RED2.png" width="25" height="25" /></li>
+	<li><img class="mediabuttons" src="../images/twitter_icon_small_RED2.png" width="25" height="25" /></li>
+    </div>
+</div>
+    <div id="clr"></div>
+    <div id="content">
+      <body id="main_body" >
+	
+	<img id="top2" src="top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>000</a></h1>
+		<form id="form_352788" class="appnitro"  method="post" action="">
+					<div class="form_description">
+			<h2>Guest List</h2>
+			<p>Please fill out the form and you will be added to our guest list.</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Name (First and Last) </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/>
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">E-mail </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Phone # </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Date </label>
+		<span>
+			<input id="element_3_1" name="element_3_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_3_1">MM</label>
+		</span>
+		<span>
+			<input id="element_3_2" name="element_3_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_3_2">DD</label>
+		</span>
+		<span>
+	 		<input id="element_3_3" name="element_3_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_3_3">YYYY</label>
+		</span>
+	
+		<span id="calendar_3">
+			<img id="cal_img_3" class="datepicker" src="calendar.gif" alt="Pick a date.">	
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_3_3",
+			baseField    : "element_3",
+			displayArea  : "calendar_3",
+			button		 : "cal_img_3",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectDate
+			});
+		</script>
+		 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="352788" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">			
+		</div>
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+</div>
+
+	<div id="footerleftlogo">
+    	<p align="left"><img src="../images/Rehab_logo_smallest.png" width="74" height="45" /></p></div>
+    <div id="footerleft">
+    	<p>Rehab</p>
+        <p>681 Valley St. Providence, RI</p>
+        <p>(555)555-5555 / INFO@REHAB.COM</p>
+	</div>
+    <div id="footermid">.</div>
+    <div id="footerright">
+    	<p align="left">Sign up for e-mail updates on future events</p>
+        </div>
+    <div id="footerrightlogo">
+    	<img src="../images/sign_up_button.png" width="100" height="37" /></div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar3 = new Spry.Widget.MenuBar("MenuBar3", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+
+
+	</body>
+</html>

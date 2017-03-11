@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding-top: 0px;
+}
+body {
+    background-color: #000000;
+}
+header {
+}
+
+a img {border: none; }
+
+#top {
+	display: block;
+	float: left;
+	height: 80px;
+	width: 1500px;
+	margin-top: 5px;
+}
+#logo {
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    height: 75px;
+    width: 300px;
+}
+#clr {
+    clear: both;
+}
+#navigation {
+    display: block;
+    float: left;
+    height: 40px;
+    padding-top: 0;
+    width: 1000px;
+}
+	#navigation img {
+	padding-right: 100px;
+	padding-left: 10px;
+}
+	#navigation img.logo {
+    padding-top: 0;
+    width: 147px;
+}
+	#navigation img.words {
+    padding-top: 0;
+}
+	#navigation img.plus {
+    padding-top: 8px;
+}
+	#navigation img.mediabuttons {
+	padding-top: 5px;
+	padding-left: 0px;	
+}
+	#navigation p.space {
+    width: 15px;
+}
+	#navigation li {
+	display: block;
+	float: left;
+	width: auto;
+}
+
+#navigation2 {
+    display: inline;
+    float: left;
+    height: 40px;
+    padding-top: 0;
+    width: 1000px;
+}
+	#navigation2 img {
+	padding-left: 140px;
+	padding-right: 60px;
+}
+	#navigation2 img.logo {
+    padding-top: 0;
+    width: 147px;
+}
+	#navigation2 img.words {
+    padding-top: 0;
+}
+	#navigation2 img.plus {
+    padding-top: 8px;
+}
+	#navigation2 img.mediabuttons {
+    padding-top: 5px;
+}
+	#navigation2 p.space {
+    width: 15px;
+}
+	#navigation2 li {
+    display: block;
+    float: left;
+}
+
+
+#content {
+	border-top: thin solid #FF0000;
+	display: block;
+	height: auto;
+	vertical-align: top;
+	width: 1200px;
+}
+#content img {
+	vertical-align: middle;
+	padding-left: 50px;
+}
+	
+#content2 {
+	display: block;
+	height: 25px;
+	width: 1000px;
+	margin-left: 6px;
+}
+#content2 img {
+	float: left;
+}
+#content3 {
+	border-bottom: thin solid #FF0000;
+	display: block;
+	height: 50px;
+	vertical-align: top;
+	width: 1200px;
+}
+#content img3 {
+    vertical-align: top;
+}
+
+#footer{
+	display:inline;
+}
+#footerleftlogo {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 70px;
+}
+#footerleft {
+	display: inline;
+	height: 100px;
+	width: 570px;
+	vertical-align:top;
+}
+
+#footermid {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 10px;
+}
+#footermid p {
+    color: #FF0000;
+    font-family: "Copperplate Gothic Bold";
+}
+#footerright {
+	display: inline;
+	height: 100px;
+	width: 540px;	
+	vertical-align:top;
+	padding-right: 100px;
+}
+#footerright p {
+    color: #FF0000;
+    font-family: "Times New Roman",Times,serif;
+}
+#footerrightlogo {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 540px;
+}

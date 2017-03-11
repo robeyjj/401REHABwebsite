@@ -1,0 +1,174 @@
+/*
+	template: Rehab	
+*/
+
+* 	{
+	margin: 0;
+	float: none;
+	padding-top: 0px;
+	}
+* img.map{
+	border:thick groove #C00;
+		 }
+
+body{
+	background-color:#000;
+	}
+	
+header{
+	
+	  }
+#top{
+	float:left;
+	display:block;
+	width:1000px;
+	height: 100px;
+	}
+#logo{
+	height: 90px;
+	width: 150px;
+	display:block;
+	float:left;
+	background-repeat: no-repeat;	
+	padding-bottom: 25px;
+	padding-top: 0px;
+	 }	 
+#clr{
+	clear:both;
+	}
+#navigation{
+	height:70px;
+	width:850px;
+	display:block;
+	float:left;
+	padding-top:20px;
+		   }
+	#navigation img{
+	border: none;
+				   }
+	#navigation img.logo{
+		padding-top: 0px;
+		width:147px;
+					}
+	#navigation img.words{
+		padding-top: 0px;
+						 }
+	#navigation img.plus{
+	padding-top: 8px;
+						}
+	#navigation img.mediabuttons{
+	padding-top: 5px;
+								}
+	#navigation p.space{
+	width:15px;
+	height100px;
+	}
+	#navigation li{
+	display:block;
+	float:left;
+				  }
+#content{
+	display:block;
+	width: 1000px;
+	height:auto;
+	border-top-style:solid;
+	border-top-color:#F00;
+	border-top-width:thin;
+	border-bottom-style:solid;
+	border-bottom-color:#F00;
+	border-bottom-width:thin;
+	padding-bottom: 10px;
+		}
+	#content p{
+		font-family:Arial;
+		font-size:24px;
+		color:#F00;
+			  }
+	#content p.red{
+	font-family:Arial;
+	font-size:24px;
+	color:#F00;
+	display:inline;
+				  }
+	#content p.grey{
+	font-family:Arial;
+	font-size:24px;
+	color:#CCC;
+	display:inline;
+				   }
+	#content p.indent{
+		font-family:Arial;
+		font-size:24px;
+		color:#F00;
+		text-indent: 30px;
+					}
+	#content p.indent2{
+		font-family:Arial;
+		font-size:24px;
+		color:#F00;
+		text-indent: 60px;
+					  }
+	#content p.headerred{
+	font-family:Arial;
+	font-size:72px;
+	color:#F00;
+	display:inherit;
+	text-align:center;
+				   }
+	#content p.headergrey{
+		font-family:Arial;
+		font-size:72px;
+		color:#CCC;
+		display:inline;
+		text-align:center;	
+	}
+	#content p.header2{
+		font-family:Arial;
+		font-size:48px;
+		color:#F00;
+	}
+#footerleftlogo{
+	width:70px;
+	height:70px;
+	display:block;
+	float:left;
+}
+#footerleft{
+	width:400px;
+	height:70px;
+	display:block;
+	float:left;
+	}
+	#footerleft p{
+	font-family:"Times New Roman", Times, serif;
+	color:#F00;
+				 }
+#footermid{
+	width:200px;
+	height:70px;
+	display:block;
+	float:left;
+		  }
+	#footermid p{
+		font-family:"Copperplate Gothic Bold";
+		color:#F00
+				}
+
+#footerright{
+	width:200px;
+	display:block;
+	float:left;
+	height: 70px;
+}
+	#footerright p {
+	font-family:"Times New Roman", Times, serif;
+	color:#F00;
+				   }
+#footerrightlogo{
+	width:100px;
+	height:70px;
+	display:block;
+	float:left;
+}
+	
+	
